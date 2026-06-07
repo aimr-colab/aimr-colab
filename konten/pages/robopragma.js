@@ -1,6 +1,6 @@
 // config/site.js
 
-export const home = {
+export const robopragma = {
   site_name: "Ai Mr Dennis",
 
   title: "Ai Mr Dennis - Neo Esports Futuristik & Hiburan Digital Modern",
