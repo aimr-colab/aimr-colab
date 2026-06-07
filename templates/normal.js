@@ -9,13 +9,13 @@ import { footer } from "./parts/footer.js";
 export function normalTemplate(page) {
   return `
 <!DOCTYPE html>
-<html lang="id">
+<html data-theme='default'>
 
 <head>
 ${head(page)}
 </head>
 
-<body>
+<body class='no-user' data-action='lazyload@window-&gt;checkout--checkout#initCheckout' data-controller='checkout--checkout utilities--ab-test utilities--timer' data-utilities--timer-containers--countdown-outlet='.containers--countdown' id='teepublic'>
 
 ${header(page)}
 
