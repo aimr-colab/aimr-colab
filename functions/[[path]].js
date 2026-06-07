@@ -10,10 +10,16 @@ export async function onRequest(context) {
 
   const pathname = new URL(context.request.url).pathname;
 
-  if (pathname.startsWith("/amp")) {
+  // Home AMP
+  if (pathname === "/amp") {
+    return ampPage("/");
+  }
+
+  // Halaman AMP lainnya
+  if (pathname.endsWith("/amp")) {
 
     const pagePath =
-      pathname.replace("/amp", "") || "/";
+      pathname.replace(/\/amp$/, "") || "/";
 
     return ampPage(pagePath);
   }
