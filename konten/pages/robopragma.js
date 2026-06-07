@@ -7,7 +7,7 @@ export const robopragma = {
 
   desc: "Ai Mr Dennis menghadirkan pengalaman hiburan digital bertema neo esports dengan visual futuristik, arena battle modern, dan atmosfer kompetitif yang premium.",
 
-  canonical: "https://aimrdennis.aipro.id/",
+  canonical: "https://aimr-colab.pages.dev/robopragma",
 
   afflink: "https://apk.mrdennis.workers.dev/",
 
