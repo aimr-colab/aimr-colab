@@ -6,12 +6,16 @@ import { robotsPage } from "./robots.js";
 import { sitemapPage } from "./sitemap.js";
 import { rssPage } from "./rss.js";
 
-export async function onRequest({ request }) {
+export async function onRequest(context) {
 
-  const { pathname } = new URL(request.url);
+  const pathname = new URL(context.request.url).pathname;
 
-  if (pathname === "/amp") {
-    return ampPage("/");
+  if (pathname.startsWith("/amp")) {
+
+    const pagePath =
+      pathname.replace("/amp", "") || "/";
+
+    return ampPage(pagePath);
   }
 
   if (pathname === "/robots.txt") {
