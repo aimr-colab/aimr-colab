@@ -18,7 +18,7 @@ export const SITE = {
 
 export const PAGES = {
   "/": home,
-  "/roboprgama": roboPragma,
+  "/robopragma": roboPragma,
   "/tentang-kami": tentangKami,
   "/kontak": kontak
 };
