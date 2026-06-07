@@ -13,6 +13,9 @@ export async function onRequest({ request }) {
   if (pathname === "/amp") {
     return ampPage("/");
   }
+    if (pathname === "/robopragma/amp") {
+    return ampPage("/robopragma");
+  }
 
   if (pathname === "/robots.txt") {
     return robotsPage();
