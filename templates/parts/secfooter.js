@@ -1,6 +1,6 @@
 // templates/parts/secfooter.js
 
-export function secfooter(home) {
+export function secfooter(page) {
   return `
 
 <h4>Product Quality</h4>
