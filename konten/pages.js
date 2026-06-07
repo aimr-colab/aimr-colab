@@ -5,7 +5,7 @@ import { robopragma } from "./pages/robopragma.js";
 import { tentangKami } from "./pages/tentang-kami.js";
 import { kontak } from "./pages/kontak.js";
 
-export const page = {
+export const PAGES = {
   title: page.title,
   desc: page.desc,
   afflink: page.afflink,
