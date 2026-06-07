@@ -1,7 +1,7 @@
 // konten/pages.js
 
 import { home } from "./pages/home.js";
-import { robopragma } from "./pages/robopragma.js";
+import { roboPragma } from "./pages/robopragma.js";
 import { tentangKami } from "./pages/tentang-kami.js";
 import { kontak } from "./pages/kontak.js";
 
@@ -18,7 +18,7 @@ export const SITE = {
 
 export const PAGES = {
   "/": home,
-  "/roboprgama": robopragma,
+  "/roboprgama": roboPragma,
   "/tentang-kami": tentangKami,
   "/kontak": kontak
 };
